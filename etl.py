@@ -1,4 +1,4 @@
-# etl.py para procesar el archivo input.csv y generar el archivo output.csv
+# etl.py
 import pandas as pd
 
 df = pd.read_csv('input.csv')
