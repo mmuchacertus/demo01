@@ -3,5 +3,5 @@ import pandas as pd
 
 df = pd.read_csv('input.csv')
 df['processed'] = df['value'] * 1000
-df.to_csv('output2.csv', index=False)
+df.to_csv('output3.csv', index=False)
 print("ETL completado.")
